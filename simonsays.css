@@ -1,0 +1,44 @@
+*{
+    background-color: black;
+    color: white;
+}
+body{
+    text-align: center;
+}
+
+.outerdiv{
+    position: absolute;
+    left: 40%;
+    height: 250px;
+    width: 250px; 
+    display: flex;
+    flex-wrap:wrap;
+    justify-content: space-around;
+    align-items: center;
+}
+.div{
+    height: 100px;
+    width: 100px;
+    border: 4px solid white;
+    border-radius: 20px;
+    background-color: aqua;
+    /* margin-left: 30px; */
+}
+.div1{
+    background-color: rgb(81, 243, 81);
+}
+.div2{
+    background-color: rgb(105, 105, 240);
+}
+.div3{
+    background-color: rgb(250, 250, 84);
+}
+.div4{
+    background-color: rgb(252, 77, 77);
+}
+.gameFlash{
+    background-color: white;
+}
+.userFlash{
+    background-color: rgb(251, 253, 250);
+}
